@@ -1,0 +1,751 @@
+@media screen and (min-width: 640px) and (max-width: 768px) {
+	/*header*/
+	header {
+		width: 100vw;
+		z-index: 1000;
+	}
+
+	header .gnbVehicles .subDetail {
+		display: none;
+	}
+
+	header .gnb .gnbPurchase > .sub,
+	header .gnb .gnbOwnership > .sub,
+	header .gnb .gnbExplode > .sub {
+		width: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	header .gnb .gnbPurchase > .sub > li,
+	header .gnb .gnbOwnership > .sub > li,
+	header .gnb .gnbExplode > .sub > li {
+		height: 230px;
+		font-size: 15px;
+		line-height: 15px;
+		margin-bottom: 10px;
+	}
+
+	header .gnb .gnbPurchase > .sub > li > ul > li > a,
+	header .gnb .gnbOwnership > .sub > li > ul > li > a,
+	header .gnb .gnbExplode > .sub > li > ul > li > a {
+		margin-top: 10px;
+		line-height: 18px;
+		font-size: 11px;
+		font-weight: 400;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
+	
+	header .gnb .gnbPurchase > .sub > li.subIconList,
+	header .gnb .gnbOwnership > .sub > li.subIconList,
+	header .gnb .gnbExplode > .sub > li.subIconList {
+		width: 98%;
+	}
+	
+	header .gnb .gnbPurchase > .sub > li.subImgList,
+	header .gnb .gnbOwnership > .sub > li.subImgList,
+	header .gnb .gnbExplode > .sub > li.subImgList {
+		width: 100%;
+		display: block;
+	}
+
+	header .subImgList li {
+		width: 167px;
+		margin-right: 20px;
+	}
+
+	header .subImgList li span {
+		line-height: 1.3;
+		font-size: 12px;
+	}
+
+	header .tnb li {
+		display: none;
+	}
+
+	/*mainVisual*/
+	.mainVisual {
+		width: 100vw;
+		height: 600px;
+		overflow: hidden;
+	}
+
+	.mainVisual .mainBtn .aniBtn {
+		bottom: 40px;
+		left: 30px;
+	}
+
+	.mainVisual .mainBtn .pageBtn {
+		bottom: 50px;
+		left: 90px;
+	}
+
+	.mainVisual .mainBtn .btn02 {
+		left: 120px;
+	}
+
+	.mainVisual .mainBtn .btn03 {
+		left: 150px;
+	}
+
+	.mainVisual .mainBtn .btn04 {
+		left: 180px;
+	}
+
+	.mainVisual .mainSilde {
+		top: 50px;
+	}
+
+	.mainVisual .mainSilde img {
+		height: auto;
+	}
+
+	/*common*/
+	.inner {
+		width: 95%;
+		padding: 0;
+	}
+
+	.inner strong {
+		margin: 10px 0;
+	}
+
+	.inner div p {
+		margin-bottom: 15px;
+	}
+
+	.inner .TextA {
+		margin: 10px 0 0 0;
+	}
+
+	/*connected*/
+	.connected .inner {
+		height: 210px;
+	}
+
+	.connected .inner .arrow {
+		display: block;
+		width: 40px;
+		height: 100%;
+		line-height: 0;
+		border: 0;
+		outline: 0;
+		box-sizing: border-box;
+		color: #666;
+		background: #fff;
+		cursor: pointer;
+		z-index: 500;
+	}
+
+	.connected .inner .arrowRight {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.connected .inner .arrowLeft {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.connected .inner .arrow > i {
+		font-size: 25px;
+	}
+
+	.connected .inner .snsGroup {
+		width: 90%;
+		height: 100%;
+	}
+
+	.connected .inner .sns {
+		float: left;
+		display: block;
+		position: relative;
+		overflow: hidden;
+		width: 150px;
+		height: 100%;
+		margin-right: 0;
+	}
+
+	.connected .inner .sns video {
+		width: auto;
+		height: 100%;
+	}
+
+	.connected .inner .sns img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.connected .inner .sns i {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	/*families*/
+	.families .inner div {
+		float: left;
+		width: 32%;
+		margin-right: 14px;
+		margin-bottom: 80px;
+	}
+
+	/*vehicles*/
+	.vehicles {
+		margin: 0;
+	}
+
+	.vehicles .vehiModel {
+		width: 32%;
+		margin-right: 14px;
+	}
+
+	.vehicles .vehiModel:nth-child(4),
+	.vehicles .vehiModel:nth-child(8) {
+		margin-right: 15px;
+	}
+
+	.vehicles .vehiModel:nth-child(3),
+	.vehicles .vehiModel:nth-child(6) {
+		margin-right: 0;
+	}
+
+	.vehicles .vehiModel p {
+		margin-bottom: 20px;
+	}
+
+	/*explore*/
+	.explore .exDetail {
+		width: 355px;
+		margin-right: 19px;
+		padding-bottom: 80px;
+	}
+	
+	.explore .exDetail:nth-child(2),
+	.explore .exDetail:nth-child(4) {
+		margin-right: 0;
+	}
+
+	.explore .exDetail p {
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+
+	/*find*/
+	.find {
+		position: relative;
+		width: 100%;
+		height: 400px;
+		background: url(/_img/find.jpg) no-repeat right / cover;
+	}
+
+	.find .text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0 auto;
+		width: 500px;
+		padding: 30px;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.9);
+		box-sizing: border-box;
+	}
+
+	.find .text h2 {
+		line-height: 0.8;
+		font-size: 40px;
+		color: #222;
+		margin-bottom: 20px;
+	}
+
+	.find .text a {
+		position: relative;
+		display: inline-block;
+		margin-top: 30px;
+		padding: 10px 20px 10px 40px;
+		background: #222;
+		border: 1px solid #222;
+		font-size: 13px;
+		color: #fff;
+		box-sizing: border-box;
+	}
+
+	.find .text a:after {
+		position: absolute;
+		top: 47%;
+		left: 15px;
+		transform: translateY(-50%);
+		display: block;
+		content: '\f3c5';
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 600;
+		font-size: 15px;
+	}
+
+	.find .text a:hover {
+		background: #444;
+		border-color: #fff;
+	}
+
+	/*build*/
+	.build .inner .buildList {
+		width: 50%;
+		height: 200px;
+		margin: 50px auto 0;
+		padding: 0;
+	}
+
+	.build .inner .buildList strong {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.build .inner .buildList a {
+		margin-bottom: 10px;
+		font-size: 17px;
+	}
+
+	/*iconArea*/
+	.iconArea .inner {
+		margin: 50px 25px;
+	}
+
+	.iconArea .inner .iconList {
+		float: left;
+		width: 50%;
+		height: 200px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid #ccc;
+	}
+
+	.iconArea .inner .iconList:hover {
+		border-color: #005a2b;
+	}
+
+	/*footer*/
+	footer p {
+		font-size: 12px;
+	}
+
+	.footYear {
+		display: none;
+	}
+
+	.footMenu {
+		padding: 50px 0 0;
+	}
+
+	.footMenu .inner > ul > li {
+		width: 33.3333%;
+		height: 400px;
+		padding: 10px;
+	}
+
+	.footMenu .inner .sns a span {
+		width: 40px;
+		height: 40px;
+		padding: 10px 8px;
+		margin-top: 10px;
+		margin-right: 10px;
+		line-height: 0;
+	}
+
+	.footMenu .inner .sns a p {
+		position: absolute;
+		top: 60%;
+		left: 55px;
+		transform: translateY(-50%);
+	}
+
+	.footMenu .inner .sns i {
+		font-size: 20px;
+	}
+
+	.footInter .inner ul li a {
+		margin-left: 15px;
+		font-size: 13px;
+	}
+
+	.footInter .inner .international img {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+	/*header*/
+	header {
+		width: 100vw;
+		z-index: 1000;
+	}
+
+	header .gnb .gnbPurchase > .sub,
+	header .gnb .gnbOwnership > .sub,
+	header .gnb .gnbExplode > .sub {
+		width: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	header .gnb .gnbPurchase > .sub > li,
+	header .gnb .gnbOwnership > .sub > li,
+	header .gnb .gnbExplode > .sub > li {
+		height: 250px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	header .gnb .gnbPurchase > .sub > li > ul > li > a,
+	header .gnb .gnbOwnership > .sub > li > ul > li > a,
+	header .gnb .gnbExplode > .sub > li > ul > li > a {
+		line-height: 20px;
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	
+	header .gnb .gnbPurchase > .sub > li.subIconList,
+	header .gnb .gnbOwnership > .sub > li.subIconList,
+	header .gnb .gnbExplode > .sub > li.subIconList {
+		width: 100%;
+	}
+	
+	header .gnb .gnbPurchase > .sub > li.subImgList,
+	header .gnb .gnbOwnership > .sub > li.subImgList,
+	header .gnb .gnbExplode > .sub > li.subImgList {
+		width: 100%;
+		display: block;
+	}
+
+	header .subImgList li {
+		width: 230px;
+		margin-right: 20px;
+	}
+
+	header .subImgList li span {
+		line-height: 1.3;
+		font-size: 14px;
+	}
+
+	/*mainVisual*/
+	.mainVisual {
+		width: 100vw;
+		height: 600px;
+		overflow: hidden;
+	}
+
+	.mainVisual .mainBtn .aniBtn {
+		bottom: 40px;
+		left: 30px;
+	}
+
+	.mainVisual .mainBtn .pageBtn {
+		bottom: 50px;
+		left: 90px;
+	}
+
+	.mainVisual .mainBtn .btn02 {
+		left: 120px;
+	}
+
+	.mainVisual .mainBtn .btn03 {
+		left: 150px;
+	}
+
+	.mainVisual .mainBtn .btn04 {
+		left: 180px;
+	}
+
+	.mainVisual .mainSilde {
+		top: 50px;
+	}
+
+	.mainVisual .mainSilde img {
+		height: auto;
+	}
+
+	/*common*/
+	.inner {
+		width: 95%;
+		padding: 0;
+	}
+
+	.inner strong {
+		margin: 10px 0;
+	}
+
+	.inner div p {
+		margin-bottom: 15px;
+	}
+
+	.inner .TextA {
+		margin: 10px 0 0 0;
+	}
+
+	/*connected*/
+	.connected .inner {
+		height: 210px;
+	}
+
+	.connected .inner .arrow {
+		display: block;
+		width: 40px;
+		height: 100%;
+		line-height: 0;
+		border: 0;
+		outline: 0;
+		box-sizing: border-box;
+		color: #666;
+		background: #fff;
+		cursor: pointer;
+		z-index: 500;
+	}
+
+	.connected .inner .arrowRight {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.connected .inner .arrowLeft {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.connected .inner .arrow > i {
+		font-size: 25px;
+	}
+
+	.connected .inner .snsGroup {
+		width: 90%;
+		height: 100%;
+	}
+
+	.connected .inner .sns {
+		float: left;
+		display: block;
+		position: relative;
+		overflow: hidden;
+		width: 150px;
+		height: 100%;
+		margin-right: 0;
+	}
+
+	.connected .inner .sns video {
+		width: auto;
+		height: 100%;
+	}
+
+	.connected .inner .sns img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.connected .inner .sns i {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	/*families*/
+	.families .inner div {
+		float: left;
+		width: 32%;
+		margin-right: 19px;
+		margin-bottom: 80px;
+	}
+
+	/*vehicles*/
+	.vehicles {
+		margin: 0;
+	}
+
+	.vehicles .vehiModel {
+		width: 32%;
+		margin-right: 15px;
+	}
+
+	.vehicles .vehiModel:nth-child(4),
+	.vehicles .vehiModel:nth-child(8) {
+		margin-right: 15px;
+	}
+
+	.vehicles .vehiModel:nth-child(3),
+	.vehicles .vehiModel:nth-child(6) {
+		margin-right: 0;
+	}
+
+	.vehicles .vehiModel p {
+		margin-bottom: 20px;
+	}
+
+	/*explore*/
+	.explore .exDetail {
+		width: 470px;
+		margin-right: 30px;
+		padding-bottom: 80px;
+	}
+
+	.explore .exDetail:nth-child(2),
+	.explore .exDetail:nth-child(4) {
+		margin-right: 0;
+	}
+
+	.explore .exDetail p {
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+
+	/*find*/
+	.find {
+		position: relative;
+		width: 100%;
+		height: 400px;
+		background: url(/_img/find.jpg) no-repeat right / cover;
+	}
+
+	.find .text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0 auto;
+		width: 500px;
+		padding: 30px;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.9);
+		box-sizing: border-box;
+	}
+
+	.find .text h2 {
+		line-height: 0.8;
+		font-size: 40px;
+		color: #222;
+		margin-bottom: 20px;
+	}
+
+	.find .text a {
+		position: relative;
+		display: inline-block;
+		margin-top: 30px;
+		padding: 10px 20px 10px 40px;
+		background: #222;
+		border: 1px solid #222;
+		font-size: 13px;
+		color: #fff;
+		box-sizing: border-box;
+	}
+
+	.find .text a:after {
+		position: absolute;
+		top: 47%;
+		left: 15px;
+		transform: translateY(-50%);
+		display: block;
+		content: '\f3c5';
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 600;
+		font-size: 15px;
+	}
+
+	.find .text a:hover {
+		background: #444;
+		border-color: #fff;
+	}
+
+	/*build*/
+	.build .inner .buildList {
+		width: 50%;
+		height: 200px;
+		margin: 50px auto 0;
+		padding: 0;
+	}
+
+	.build .inner .buildList strong {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.build .inner .buildList a {
+		margin-bottom: 10px;
+		font-size: 17px;
+	}
+
+	/*iconArea*/
+	.iconArea .inner {
+		margin: 50px 25px;
+	}
+
+	.iconArea .inner .iconList {
+		float: left;
+		width: 50%;
+		height: 200px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid #ccc;
+	}
+
+	.iconArea .inner .iconList:hover {
+		border-color: #005a2b;
+	}
+
+	/*footer*/
+	footer p {
+		font-size: 12px;
+	}
+
+	.footYear {
+		display: none;
+	}
+
+	.footMenu {
+		padding: 50px 0 0;
+	}
+
+	.footMenu .inner > ul > li {
+		width: 33.3333%;
+		height: 400px;
+		padding: 10px;
+	}
+
+	.footMenu .inner .sns a span {
+		width: 40px;
+		height: 40px;
+		padding: 10px 8px;
+		margin-top: 10px;
+		margin-right: 10px;
+		line-height: 0;
+	}
+
+	.footMenu .inner .sns a p {
+		position: absolute;
+		top: 60%;
+		left: 55px;
+		transform: translateY(-50%);
+	}
+
+	.footMenu .inner .sns i {
+		font-size: 20px;
+	}
+
+	.footInter .inner ul li a {
+		margin-left: 15px;
+		font-size: 13px;
+	}
+
+	.footInter .inner .international img {
+		display: none;
+	}
+}
